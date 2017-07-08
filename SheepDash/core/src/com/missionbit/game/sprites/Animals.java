@@ -1,21 +1,17 @@
 package com.missionbit.game.sprites;
 
 import com.badlogic.gdx.graphics.Texture;
-<<<<<<< HEAD
-=======
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
->>>>>>> 62b03cbc1a401db00ab0cf3ca03b217cebf34b17
+
 
 /**
  * Created by missionbit on 6/26/17.
  */
 
 public class Animals {
-<<<<<<< HEAD
     private Texture sheep;
     private Texture duck;
-=======
     private Vector3 position;
     private Vector3 velocity;
     private Rectangle bounds;
@@ -45,5 +41,4 @@ public class Animals {
     public Vector3 getPosition() {
         return position;
     }
->>>>>>> 62b03cbc1a401db00ab0cf3ca03b217cebf34b17
 }
