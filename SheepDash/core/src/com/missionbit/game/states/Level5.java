@@ -111,27 +111,27 @@ public class Level5 extends State {
     protected void handleInput() {
         if (Gdx.input.justTouched()) {
             if (a == 1) {
-                if (sheep.getPosition().y == 60) {
+                if (sheep.getPosition().y <= 60) {
                     sheep.jump();
                 }
             }
             if (a == 2) {
-                if (cow.getPosition().y == 60) {
+                if (cow.getPosition().y <= 60) {
                     cow.jump();
                 }
             }
             if (a == 3) {
-                if (pig.getPosition().y == 60) {
+                if (pig.getPosition().y <= 60) {
                     pig.jump();
                 }
             }
             if (a == 4) {
-                if (bunny.getPosition().y == 60) {
+                if (bunny.getPosition().y <= 60) {
                     bunny.jump();
                 }
             }
             if (a == 5) {
-                if (chick.getPosition().y == 60) {
+                if (chick.getPosition().y <= 60) {
                     chick.jump();
                 }
             }
